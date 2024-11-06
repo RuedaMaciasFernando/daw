@@ -1,7 +1,7 @@
-### Practica 1 Servicios en red DAW
-## Fernando Rueda
+# Practica 1 Servicios en red DAW
+### Fernando Rueda
 
-# Configuración en Ubuntu Server
+## Configuración en Ubuntu Server
  - IMPORTANTE : Recomendable modificar los ficheros con sudo
  - Editar el fichero hostnamme
 
@@ -43,7 +43,7 @@
 
 
 
-    # DHCP 
+    ## DHCP 
     Vamos a configurar una nueva tarjeta de red en el Servidor Ubuntu llamada enp4s0 con el procedimiento mencionado anteriormente.
 
     ![Añadir ip dhcp ubuntu](/capturaspractica1/redserverubuntu.PNG)
@@ -72,7 +72,7 @@ Una vez instalado tendremos que configurar la interfaz en la que va a trabajar e
    Y Procederemos a reiniciar el servicio con : ```service isc-dhcp-server restart```.
 
 
-  # DHCP en los clientes
+  ## DHCP en los clientes
 
   Si la configuración anterior ha ido correctamente, solo tendremos que hacer el comando  ```ipconfig /release``` y ```ipconfig /renew ``` en Windows.
  
@@ -89,7 +89,7 @@ Una vez instalado tendremos que configurar la interfaz en la que va a trabajar e
   
  ![Ping cliente ubuntu](/capturaspractica1/pinclienteubuntu.PNG).
 
-  # Asignación de leases   
+  ## Asignación de leases   
 
   
 Para comprobar el estado del servicio y que el puerto 67 está en espera (netstat), ejecutamos el comando ```service isc-dhcp-server status``` y después
