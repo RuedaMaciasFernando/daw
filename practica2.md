@@ -69,17 +69,17 @@
   - `miapellido.es` asociado a una dirección pública inventada.
   - `miapellido.com` asociado a la dirección del dominio de la primera parte de la práctica. Si eres el nº 1 sería `github.com`
 
-   ![](capturaspractica2/2partapracticahosts.PNG)
+   ![](capturaspractica2/2partapracticahosts.png)
 
 - Comprueba la resolución de los tres registros con alguna de las herramientas de diagnóstico.
 
-    ![](capturaspractica2/comprobacionapartado2_1.PNG)
+    ![](capturaspractica2/comprobacionapartado2_1.png)
 
 - Comprueba la misma resolución pero haciendo que el servidor consultado sea el 8.8.8.8
 
   - Como podemos apreciar el archivo /etc/hosts es resuelve los nombres de manera local, al hacerlo con el DNS de google no podrá porque no existirán.
 
- ![](capturaspractica2/comprobacionapartado2_2.PNG)
+ ![](capturaspractica2/comprobacionapartado2_2.png)
 
 ### Configuración del servidor  DNS con BIND9
 
