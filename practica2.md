@@ -59,7 +59,7 @@
 
   - Haz la búsqueda de forma autorizada, es decir, que el servidor que contesta sea uno de los registos NS del dominio.
 
-  ![](capturaspractica2/busquedautorizada.PNG)
+  ![](capturaspractica2/busquedautorizada.png)
   
 
 ### Suplantar servicio DNS localmente.
