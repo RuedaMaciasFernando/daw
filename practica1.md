@@ -61,7 +61,7 @@
 Una vez instalado tendremos que configurar la interfaz en la que va a trabajar el servidor dhcp.
  ```/etc/default/isc-dhcp-server```.
 
-  ![Modificar tarjeta dhcp ](/capturaspractica1/ipreservada.PNG).
+  ![Modificar tarjeta dhcp ](/capturaspractica1/ficheroiscdhcpserver.PNG.PNG).
 
   Modificaremos el fichero principal  de configuración de DHCP :  ```/etc/dhcp/dhcpd.conf```. Bajaremos hasta que encontremos una declaracion parecida a esta.
 
