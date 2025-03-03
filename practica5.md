@@ -77,7 +77,7 @@ Una vez que hayamos hecho el cambio anterior, hayamos metido los datos en la bas
 
 ![](/capturaspractica5/extito2.PNG)
 
-Declaración de como los servicios de bases de datos mysql de las app.
+Declaración de  los servicios de bases de datos mysql de las app.
 
 
 ![](/capturaspractica5/dockercomposedb1db2.PNG)
