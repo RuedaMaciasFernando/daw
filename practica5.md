@@ -68,13 +68,24 @@ Y ya lo tendriamos corriendo.
 - Comprueba que funciona la ruta:  http://app2.local
 
 Configuramos el index de nuestra app php.
+
 ![](/capturaspractica5/configurarbase2.PNG)
+
+
 Una vez que hayamos hecho el cambio anterior, hayamos metido los datos en la base de datos correspondiente como en el ejemplo anterior y  tengamos  la declaración de las app en nuestro fichero docker , tendríamos a nuestra aplicacion corriendo.
+
+
 ![](/capturaspractica5/extito2.PNG)
 
 Declaración de como los servicios de bases de datos mysql de las app.
+
+
 ![](/capturaspractica5/dockercomposedb1db2.PNG)
+
+
 Declaración de como crear las app.
+
+
 ![](/capturaspractica5/app1app2.PNG)
 
 ### Un poco más de documentación. 
