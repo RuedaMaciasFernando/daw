@@ -63,9 +63,9 @@
 - Comprueba que funciona la ruta:  http://app2.local
 
 ![](/capturaspractica5/configurarbase2.PNG)
-![](/capturaspractica5/exito2.PNG)
+![](/capturaspractica5/extito2.PNG)
 
-![](/capturaspractica5/dockercomposebd1bd2.PNG)
+![](/capturaspractica5/dockercomposedb1db2.PNG)
 ![](/capturaspractica5/app1app2.PNG)
 
 ### Un poco más de documentación. 
