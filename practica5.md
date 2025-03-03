@@ -28,6 +28,7 @@
   - Comprueba que funciona correnctamente el sitio web2.com (deberas editar el fichero hosts)
   - Deja una única red (network) en todos los contenedores. Llámale como consideres.
 
+   Comprobamos que web 2 funciona.
   ![](/capturaspractica5/exitoinicial.PNG)
 
 ### Sitio app1.local
@@ -44,9 +45,13 @@
   - Revisa el resto de parámetros
 - Comprueba que funciona la ruta: http://app1.local/api/deseos
 
-
+Una vez que hayamos hecho el fichero de configuración de la base de datos y de la app (ultimas dos capturas del sitio2), arrancamos con     ```docker compose up``` y nos meteremos en la consola de mysql para crear la base tal que asi.
 ![](/capturaspractica5/crearbase.PNG)
+
+Tendremos que cambiar la configuración de la base de datos en el fichero correspondiente.
 ![](/capturaspractica5/configurarbase1.PNG)
+
+Y ya lo tendriamos corriendo.
 ![](/capturaspractica5/exito1.PNG)
 
 ### Sitio app2.local
@@ -62,10 +67,14 @@
   - Deberás añadir en variable de entorno "VIRTUAL_HOST", fíjate en web2
 - Comprueba que funciona la ruta:  http://app2.local
 
+Configuramos el index de nuestra app php.
 ![](/capturaspractica5/configurarbase2.PNG)
+Una vez que hayamos hecho el cambio anterior, hayamos metido los datos en la base de datos correspondiente como en el ejemplo anterior y  tengamos  la declaración de las app en nuestro fichero docker , tendríamos a nuestra aplicacion corriendo.
 ![](/capturaspractica5/extito2.PNG)
 
+Declaración de como los servicios de bases de datos mysql de las app.
 ![](/capturaspractica5/dockercomposedb1db2.PNG)
+Declaración de como crear las app.
 ![](/capturaspractica5/app1app2.PNG)
 
 ### Un poco más de documentación. 
